@@ -53,17 +53,17 @@ const userPermissions = {
 ```
 
 Add the PermContainer as a parent to your app, and pass the userPermissions object.
-```javascript
+```react
 <PermsContainer userPerms={userPermissions}>
     <!-- Contents of App -->
 </PermsContainer>
 ```
 
 Each child element should then have a 'data-perms' attribute requiring specific permissions of a specific entity.
-```javascript
+```react
 <button data-perms='projects:create'>Create New Project</button>
 ```
 
 ## Contributing
 
-Pull requests are welcome.
+Always Welcome!
